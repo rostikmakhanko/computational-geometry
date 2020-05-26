@@ -1,4 +1,5 @@
 # computational-geometry
+
 Laboratory works and assignments of Computational Geometry Course
 **Structure of the repository**
 * **b-spline** is a solution for the laboratory work
