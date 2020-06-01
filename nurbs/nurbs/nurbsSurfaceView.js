@@ -11,7 +11,13 @@ const POINTS = [
 	[ 5, 1, 2 ],
 	[ 6, 2, 0 ],
 	[ 7, 3, 3 ],
-	[ 10, 2, 3 ]
+	[ 10, 2, 3 ],
+	[ 11, 2, 1 ],
+	[ 13, 4, 3 ],
+	[ 14, 3, 3],
+	[ 15, 6, 4 ],
+	[ 17, 3, 1 ],
+	[ 20, 4, 3],
 ];
 const multiplier = 50;
 
@@ -58,7 +64,17 @@ function init() {
 			createVector( POINTS[ 6 ] ),
 			createVector( POINTS[ 7 ] ),
 			createVector( POINTS[ 7 ] )
-		]
+		],
+		[
+			createVector( POINTS[ 8 ] ),
+			createVector( POINTS[ 9 ] ),
+			createVector( POINTS[ 10 ] )
+		],
+		[
+			createVector( POINTS[ 11 ] ),
+			createVector( POINTS[ 12 ] ),
+			createVector( POINTS[ 13 ] )
+		],
 	];
 	var degree1 = 2;
 	var degree2 = 2;
